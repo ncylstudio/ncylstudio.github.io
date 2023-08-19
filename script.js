@@ -21,7 +21,7 @@ for (let i = 0; i < jumps.length; i++){
   jumps[i].onclick = smoothScroll;
 }
 
-let items = document.querySelectorAll(".item")
+let items = document.querySelectorAll(".item img")
 for (let i = 0; i < items.length; i++){
   items[i].onclick = () => {window.open(
     "https://github.com/ncylstudio/ncyl/tree/main/Projects/" +
