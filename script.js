@@ -24,7 +24,7 @@ for (let i = 0; i < jumps.length; i++){
 let items = document.querySelectorAll(".item")
 for (let i = 0; i < items.length; i++){
   items[i].onclick = () => {window.open(
-    "https://github.com/boringGhast/ncyl/tree/main/Projects/" +
+    "https://github.com/ncylstudio/ncyl/tree/main/Projects/" +
       items[i].getAttribute("name")
   );}
 }
